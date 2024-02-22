@@ -1,10 +1,11 @@
 import Navbar from "@/app/components/organism/landingpage/navbar"
+import Home from "@/app/components/organism/landingpage/home"
 
 const LandingPageView = () => {
     return (
         <>
             <Navbar />
-            {/* <div> Hallo ini adalah landing page </div> */}
+            <Home />
         </>
     )
 }
