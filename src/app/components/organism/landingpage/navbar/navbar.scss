@@ -121,14 +121,6 @@ nav {
     }
 }
 
-@media screen and (max-width: 1020px) {
-    .flex {
-        .self-center .flex span:last-child {
-            display: block;
-        }
-    }
-}
-
 @media screen and (max-width: 1024px) {
     nav {
         background: rgba(211, 202, 202, 0.3);
@@ -145,6 +137,14 @@ nav {
                 width: 100px;
                 height: 50px;
             }
+        }
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .flex {
+        .self-center .flex span:last-child {
+            display: block;
         }
     }
 }
