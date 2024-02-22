@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --primary: #C3937C;
+    --secondary: #787878;
+    --black: #000000;
+    --white: #FFFFFF;
+    --inter: 'Inter', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+    --hurricane: 'Hurricane', cursive;
+    --wallBgUpdate: #212121
+}
+
+html {
+    scroll-behavior: smooth !important;
+}

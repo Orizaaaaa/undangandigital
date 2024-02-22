@@ -6,6 +6,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FaDownload } from "react-icons/fa";
 import { navigation } from '@/app/utils/dataObject';
+import { RiLoginCircleLine } from "react-icons/ri";
+import ButtonPrimary from '@/app/components/elements/buttonPrimary/Button';
+import { logoBrand } from '@/app/image';
 
 const Navbar = () => {
     const pathname = usePathname()
@@ -69,23 +72,17 @@ const Navbar = () => {
         <nav className={`fixed top-0 left-0 py-2.5 w-full z-10    ${navbarBg ? 'navbarbgActive' : ''}`}>
             <div className="grid grid-cols-2 lg:grid-cols-4 flex-wrap items-center justify-between  px-3 mx-auto ">
                 <div className="flex items-center gap-2">
-                    {/* <Image className='portfolio-icon' src={image_porto2} alt="portfolio-icon" /> */}
-                    <span className="self-center text-sm font-semibold whitespace-nowrap text-black">
-                        <div className="flex flex-col">
-                            <span> PORTOFOLIO</span>
-                            <span className=' top-0 text-sm font-light ' > Informatics Student | Front End Developer</span>
-                        </div>
-                    </span>
+                    <Image className='brand-icon' src={logoBrand} alt="brand-icon" />
                 </div>
 
                 <div className="flex items-center justify-end lg:order-2">
                     <div className="hidden mt-2 mr-4 sm:inline-block">
                         <span />
                     </div>
-                    {/* <ButtonPrimary onClick={downloadPdf} type='button' className='items-center justify-center font-medium gap-2  px-4 py-2 rounded-md hidden lg:block lg:flex'>
-                        Download my CV
-                        <FaDownload />
-                    </ButtonPrimary> */}
+                    <ButtonPrimary type='button' className='items-center justify-center font-medium gap-2  px-4 py-2 rounded-md hidden lg:block lg:flex'>
+                        Login
+                        <RiLoginCircleLine size={26} />
+                    </ButtonPrimary>
 
                     <button
                         onClick={toggleMobileMenu}
@@ -123,10 +120,10 @@ const Navbar = () => {
                             </li>
                         ))}
                         <li>
-                            {/* <ButtonPrimary type='button' onClick={downloadPdf} className='items-center mt-3 justify-center font-medium gap-2  px-4 py-2 rounded-md block lg:hidden flex w-full'>
-                                Download my CV
-                                <FaDownload />
-                            </ButtonPrimary> */}
+                            <ButtonPrimary type='button' className='items-center mt-3 justify-center font-medium gap-2  px-4 py-2 rounded-md block lg:hidden flex w-full'>
+                                Login
+                                <RiLoginCircleLine size={26} />
+                            </ButtonPrimary>
                         </li>
                     </ul>
                 </div>
