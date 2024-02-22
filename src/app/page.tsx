@@ -1,9 +1,8 @@
 import Image from "next/image";
+import LandingPageView from "./view/LandingPage/LandingPageView";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <p>Ini adalah landing page</p>
-    </main>
+    <LandingPageView />
   );
 }
