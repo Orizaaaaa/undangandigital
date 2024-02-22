@@ -19,9 +19,5 @@ export const navigation = [
         title: 'Experience',
         location: 'experiences'
     },
-    {
-        title: 'Portfolio',
-        location: '/portfolio'
-    },
 
 ]

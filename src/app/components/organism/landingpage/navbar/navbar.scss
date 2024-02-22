@@ -104,8 +104,8 @@ nav {
 
     .flex {
         .brand-icon {
-            width: 170px;
-            height: 60px;
+            width: 120px;
+            height: 70px;
         }
     }
 
@@ -139,14 +139,11 @@ nav {
         .grid .items-center ul {
             background-color: var(--wallBg);
         }
-    }
-}
 
-@media screen and (max-width: 434px) {
-    nav {
         .flex {
             .brand-icon {
-                display: none;
+                width: 100px;
+                height: 50px;
             }
         }
     }
