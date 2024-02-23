@@ -4,7 +4,7 @@ export const navigation = [
         location: 'home'
     },
     {
-        title: 'About',
+        title: 'Langkah Pembuatan',
         location: 'aboutMe'
     },
     {
