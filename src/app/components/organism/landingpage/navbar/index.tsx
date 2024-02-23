@@ -69,7 +69,7 @@ const Navbar = () => {
 
 
     return (
-        <nav className={`fixed top-0 left-0  w-full z-10    ${navbarBg ? 'navbarbgActive' : ''}`}>
+        <nav className={`fixed top-0 left-0 py-1 w-full z-10    ${navbarBg ? 'navbarbgActive' : ''}`}>
             <div className="grid grid-cols-2 lg:grid-cols-4 flex-wrap items-center justify-between  px-3 mx-auto ">
                 <div className="flex items-center gap-2">
                     <Image className='brand-icon' src={logoBrand} alt="brand-icon" />
