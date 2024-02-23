@@ -21,7 +21,7 @@ const Home = () => {
                     variants={slideIn("left", "tween", 0.1, 1)}>
                     <motion.p variants={textVariants(1.3)}><i>Life is an event</i></motion.p>
                     <motion.h1 className={hurricane.className} variants={textVariants(1.1)}>WEBSITE UNDANGAN DIGITAL</motion.h1>
-                    <motion.h2 variants={textVariants(1.2)}>Rayakan pernikahan Anda bersama orang-orang terdekat dalam momen istimewa! Ajak mereka dengan cara istimewa dan unik. Coba sekarang, GRATIS!</motion.h2>
+                    <motion.h2 variants={textVariants(1.2)}>Rayakan pernikahan anda bersama orang-orang terdekat dalam momen istimewa! Ajak mereka dengan cara istimewa dan unik. Coba sekarang, GRATIS!</motion.h2>
                 </motion.div>
 
                 <motion.div className="flex  justify-center "
