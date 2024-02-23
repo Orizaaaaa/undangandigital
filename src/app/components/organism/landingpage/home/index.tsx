@@ -5,6 +5,8 @@ import './home.scss'
 import { motion } from "framer-motion";
 import { slideIn, staggerContainer, textVariants } from '@/app/utils/motion'
 import { homeIcon } from '@/app/image';
+import ButtonPrimary from '@/app/components/elements/buttonPrimary/Button';
+import ButtonSecondary from '@/app/components/elements/buttonSecondary/Button';
 
 const Home = () => {
 
@@ -20,6 +22,10 @@ const Home = () => {
                     <motion.p variants={textVariants(1.3)}><i>Life is an event</i></motion.p>
                     <motion.h1 variants={textVariants(1.1)}>WEBSITE UNDANGAN DIGITAL</motion.h1>
                     <motion.h2 variants={textVariants(1.2)}>Rayakan pernikahan anda bersama orang-orang terdekat dalam momen istimewa! Ajak mereka dengan cara istimewa dan unik. Coba sekarang, GRATIS!</motion.h2>
+                    <motion.div className='flex gap-5 mt-5'>
+                        <ButtonPrimary className='rounded-[200px] py-2 px-5 text-sm md: text-base  transition duration-300 '>  BUAT UNDANGAN </ButtonPrimary>
+                        <ButtonSecondary className='rounded-[200px] py-2 px-5 text-sm md: text-base ' > LIHAT VIDIO </ButtonSecondary>
+                    </motion.div>
                 </motion.div>
 
                 <motion.div className="flex  justify-center "
