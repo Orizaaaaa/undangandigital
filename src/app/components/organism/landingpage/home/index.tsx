@@ -11,7 +11,7 @@ const hurricane = Hurricane({ weight: '400', subsets: ['latin'] });
 const Home = () => {
 
     return (
-        <section className="home " id="home">
+        <section className="home py-[6rem]" id="home">
             <motion.div className="intro grid grid-cols-1 lg:grid-cols-2 items-center justify-center"
                 variants={staggerContainer()}
                 whileInView="show"
