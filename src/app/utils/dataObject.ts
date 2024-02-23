@@ -1,3 +1,4 @@
+import { FaRegListAlt } from "react-icons/fa";
 export const navigation = [
     {
         title: 'Home',
@@ -21,3 +22,10 @@ export const navigation = [
     },
 
 ]
+
+// export const instruction = [
+//     {
+//         title: 'Daftar',
+//         image: <FaRegListAlt />
+//     }
+// ]
