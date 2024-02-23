@@ -11,20 +11,20 @@ const hurricane = Hurricane({ weight: '400', subsets: ['latin'] });
 const Home = () => {
 
     return (
-        <section className="home container mx-auto " id="home">
-            <motion.div className="intro grid  grid-cols-1 lg:grid-cols-5 items-center justify-center"
+        <section className="home " id="home">
+            <motion.div className="intro grid grid-cols-1 lg:grid-cols-2 items-center justify-center"
                 variants={staggerContainer()}
                 whileInView="show"
                 initial="hidden"
             >
-                <motion.div className="col-span-3 grid items-center justify-start p-2"
+                <motion.div className="title grid items-center justify-start p-2"
                     variants={slideIn("left", "tween", 0.1, 1)}>
-                    <motion.h1 className={hurricane.className} variants={textVariants(1.1)}>Introduce Myself</motion.h1>
-                    <motion.h2 variants={textVariants(1.2)}>Oriza Sativa</motion.h2>
-                    <motion.h3 variants={textVariants(1.3)}><i>Front End Developer</i></motion.h3>
+                    <motion.p variants={textVariants(1.3)}><i>Life is an event</i></motion.p>
+                    <motion.h1 className={hurricane.className} variants={textVariants(1.1)}>WEBSITE UNDANGAN DIGITAL</motion.h1>
+                    <motion.h2 variants={textVariants(1.2)}>Rayakan pernikahan Anda bersama orang-orang terdekat dalam momen istimewa! Ajak mereka dengan cara istimewa dan unik. Coba sekarang, GRATIS!</motion.h2>
                 </motion.div>
 
-                <motion.div className="flex col-span-2 justify-center "
+                <motion.div className="flex  justify-center "
                     variants={slideIn("right", "tween", 0.1, 1)}>
                     <Image src={homeIcon} alt="homeIcon" />
                 </motion.div>

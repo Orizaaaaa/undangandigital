@@ -9,12 +9,19 @@
     --white: #FFFFFF;
     --inter: 'Inter', sans-serif;
     --poppins: 'Poppins', sans-serif;
-    --hurricane: 'Hurricane', cursive;
+    --courier: "Courier Prime", monospace;
     --wallBgUpdate: #212121
 }
 
 html {
     scroll-behavior: smooth !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--inter);
 }
 
 body::-webkit-scrollbar {
