@@ -3,11 +3,7 @@ import Card from '@/app/components/fragments/card'
 import { useState } from 'react';
 
 const Instruction = () => {
-    const [isOpen, setIsOpen] = useState(false);
 
-    const toggleDropdown = () => {
-        setIsOpen(!isOpen);
-    };
     return (
         <section className="instruction mb-10" id="instruction">
             <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center">
