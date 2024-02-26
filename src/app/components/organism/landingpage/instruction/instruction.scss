@@ -1,0 +1,23 @@
+.instruction {
+    h1 {
+        color: var(--primary);
+    }
+
+    p {
+        color: var(--primary);
+    }
+
+    .grid {
+        .shadow-lg {
+            p {
+                color: var(--secondary);
+            }
+
+            .flex {
+                h2 {
+                    color: var(--primary);
+                }
+            }
+        }
+    }
+}
