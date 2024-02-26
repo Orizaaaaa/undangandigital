@@ -29,21 +29,21 @@ export const themeList = [
         image: example,
         title: 'Ramadhan',
         type: 'Free',
-        star: 10,
+        star: 5,
         user: 10
     },
     {
         image: example,
         title: 'Ramadhan',
         type: 'Premium',
-        star: 10,
+        star: 5,
         user: 10
     },
     {
         image: example,
         title: 'Ramadhan',
         type: 'Luxury',
-        star: 10,
+        star: 5,
         user: 10
     },
 
@@ -51,14 +51,14 @@ export const themeList = [
         image: example,
         title: 'Ramadhan',
         type: 'Free',
-        star: 10,
+        star: 5,
         user: 10
     },
     {
         image: example,
         title: 'Ramadhan',
         type: 'Luxury',
-        star: 10,
+        star: 5,
         user: 10
     },
 
@@ -66,7 +66,7 @@ export const themeList = [
         image: example,
         title: 'Ramadhan',
         type: 'Free',
-        star: 10,
+        star: 5,
         user: 10
     },
 
@@ -74,7 +74,7 @@ export const themeList = [
         image: example,
         title: 'Ramadhan',
         type: 'Premium',
-        star: 10,
+        star: 5,
         user: 10
     },
 
@@ -82,7 +82,7 @@ export const themeList = [
         image: example,
         title: 'Ramadhan',
         type: 'Luxury',
-        star: 10,
+        star: 5,
         user: 10
     },
 ]

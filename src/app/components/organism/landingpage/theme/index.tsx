@@ -6,6 +6,8 @@ import { FaStar } from "react-icons/fa";
 import { themeList } from '@/app/utils/dataObject';
 import ButtonPrimary from '@/app/components/elements/buttonPrimary/Button';
 
+
+
 const Theme = () => {
 
 
@@ -35,9 +37,9 @@ const Theme = () => {
                             <h1 className='font-semibold px-3 text-xl font-semibold'>{item.title}</h1>
                             <div className="flex">
                                 <div className="star flex items-center px-3 mb-5">
-                                    <FaStar className='text-amber-400' size={20} />
-                                    <FaStar className='text-amber-400' size={20} />
-                                    <FaStar className='text-amber-400' size={20} />
+                                    {Array.from({ length: item.star }).map((_, index) => (
+                                        <FaStar key={index} className='text-amber-400' size={20} />
+                                    ))}
                                 </div>
                                 <p>({item.user})</p>
                             </div>
