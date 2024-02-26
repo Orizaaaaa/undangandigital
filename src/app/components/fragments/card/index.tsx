@@ -2,9 +2,9 @@ import React from 'react'
 
 
 
-const Card = ({ children }: { children: React.ReactNode }) => {
+const Card = ({ children, className }: { children: React.ReactNode, className?: string }) => {
     return (
-        <div className='shadow-lg p-4 bg-white rounded-md' >{children}</div>
+        <div className={`shadow-lg bg-white rounded-md ${className}`} >{children}</div>
     )
 }
 

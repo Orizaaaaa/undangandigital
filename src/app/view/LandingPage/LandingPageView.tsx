@@ -7,7 +7,7 @@ const LandingPageView = () => {
     return (
         <>
             <Navbar />
-            <Home />
+            {/* <Home /> */}
             <Instruction />
             <Theme />
         </>

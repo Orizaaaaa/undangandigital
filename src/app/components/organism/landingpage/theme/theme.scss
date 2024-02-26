@@ -1,0 +1,26 @@
+.theme {
+    .title {
+        color: var(--primary);
+    }
+
+    .grid {
+        .card-wrapper {
+            .flex {
+                .freeStyle {
+                    background-color: #FFDFD7;
+                    color: #AA3E24;
+                }
+
+                .premiumStyle {
+                    color: #1B7A37;
+                    background-color: #D4F1DD;
+                }
+
+                .luxuryStyle {
+                    color: var(--white);
+                    background-color: var(--primary);
+                }
+            }
+        }
+    }
+}

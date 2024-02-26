@@ -1,4 +1,5 @@
 import { FaRegListAlt } from "react-icons/fa";
+import { example } from "../image";
 export const navigation = [
     {
         title: 'Home',
@@ -23,9 +24,65 @@ export const navigation = [
 
 ]
 
-// export const instruction = [
-//     {
-//         title: 'Daftar',
-//         image: <FaRegListAlt />
-//     }
-// ]
+export const themeList = [
+    {
+        image: example,
+        title: 'Ramadhan',
+        type: 'Free',
+        star: 10,
+        user: 10
+    },
+    {
+        image: example,
+        title: 'Ramadhan',
+        type: 'Premium',
+        star: 10,
+        user: 10
+    },
+    {
+        image: example,
+        title: 'Ramadhan',
+        type: 'Luxury',
+        star: 10,
+        user: 10
+    },
+
+    {
+        image: example,
+        title: 'Ramadhan',
+        type: 'Free',
+        star: 10,
+        user: 10
+    },
+    {
+        image: example,
+        title: 'Ramadhan',
+        type: 'Luxury',
+        star: 10,
+        user: 10
+    },
+
+    {
+        image: example,
+        title: 'Ramadhan',
+        type: 'Free',
+        star: 10,
+        user: 10
+    },
+
+    {
+        image: example,
+        title: 'Ramadhan',
+        type: 'Premium',
+        star: 10,
+        user: 10
+    },
+
+    {
+        image: example,
+        title: 'Ramadhan',
+        type: 'Luxury',
+        star: 10,
+        user: 10
+    },
+]
