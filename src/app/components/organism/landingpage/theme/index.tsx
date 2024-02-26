@@ -23,8 +23,8 @@ const Theme = () => {
 
     return (
         <div className="theme mb-4" id='theme'>
-            <h1 className=' title text-center text-3xl font-bold my-10' >Pilihan Tema Undangan Digital Kami </h1>
-            <div className="grid p-3 grid-cols-1  sm:grid-cols-2 lg:grid-cols-4 gap-3">
+            <h1 className=' title text-center text-xl  lg:text-3xl font-bold my-10' >Pilihan Tema Undangan Digital Kami </h1>
+            <div className="grid px-3 grid-cols-1  sm:grid-cols-2 lg:grid-cols-4 gap-3">
                 {themeList.map((item, index) => (
                     <Card key={index} >
                         <div className="card-wrapper relative">

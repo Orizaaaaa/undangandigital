@@ -21,6 +21,34 @@
                     background-color: var(--primary);
                 }
             }
+
+            img {
+                height: 210px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1278px) {
+    .theme {
+        .grid {
+            .card-wrapper {
+                img {
+                    height: 150px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .theme {
+        .grid {
+            .card-wrapper {
+                img {
+                    height: 230px;
+                }
+            }
         }
     }
 }
