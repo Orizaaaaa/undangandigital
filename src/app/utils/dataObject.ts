@@ -1,5 +1,6 @@
 import { FaRegListAlt } from "react-icons/fa";
-import { example } from "../image";
+import { example, homeFitur, share, phone, music, money, kuas, galery, dataFild, clock } from "../image";
+
 export const navigation = [
     {
         title: 'Home',
@@ -37,14 +38,14 @@ export const themeList = [
         title: 'Ramadhan',
         type: 'Premium',
         star: 5,
-        user: 10
+        user: '10 RB+'
     },
     {
         image: example,
         title: 'Ramadhan',
         type: 'Luxury',
         star: 5,
-        user: 10
+        user: '2 RB+'
     },
 
     {
@@ -52,14 +53,14 @@ export const themeList = [
         title: 'Ramadhan',
         type: 'Free',
         star: 5,
-        user: 10
+        user: 100
     },
     {
         image: example,
         title: 'Ramadhan',
         type: 'Luxury',
         star: 5,
-        user: 10
+        user: '4 RB+'
     },
 
     {
@@ -67,7 +68,7 @@ export const themeList = [
         title: 'Ramadhan',
         type: 'Free',
         star: 5,
-        user: 10
+        user: 500
     },
 
     {
@@ -75,7 +76,7 @@ export const themeList = [
         title: 'Ramadhan',
         type: 'Premium',
         star: 5,
-        user: 10
+        user: '1 RB+'
     },
 
     {
@@ -83,6 +84,54 @@ export const themeList = [
         title: 'Ramadhan',
         type: 'Luxury',
         star: 5,
-        user: 10
+        user: '8 RB+'
+    },
+]
+
+export const fiturList = [
+    {
+        icon: homeFitur,
+        title: 'Monitoring Web',
+        desc: 'Pantau kemajuan undangan pernikahan secara real-time dengan fitur pemantauan yang memudahkan anda mengelola undangan'
+    },
+    {
+        icon: money,
+        title: 'Amplop Digital ',
+        desc: 'Ciptakan kejutan dengan amplop digital yang kreatif, tambahkan sentuhan personal pada undangan pernikahan anda secara modern'
+    },
+    {
+        icon: music,
+        title: 'Pemutar Musik ',
+        desc: 'Hidupkan suasana dengan pemutar musik terintegrasi, pilih lagu-lagu spesial untuk mengiringi momen istimewa pernikahan anda.'
+    },
+    {
+        icon: galery,
+        title: 'Desain Modern ',
+        desc: 'Tampilkan gaya modern dalam undangan pernikahan anda dengan desain yang elegan dan inovatif, mencerminkan kepribadian anda.'
+    },
+    {
+        icon: dataFild,
+        title: 'Pengisian data yang mudah',
+        desc: 'Mudahkan tamu untuk mengisi rincian kehadiran mereka     dengan antarmuka pengisian data yang sederhana dan intuitif.'
+    },
+    {
+        icon: kuas,
+        title: 'Pilih Tema Terbaik',
+        desc: 'Temukan tema terbaik yang sesuai dengan selera anda, personalisasi undangan pernikahan sesuai keinginan anda.'
+    },
+    {
+        icon: share,
+        title: 'Share Undangan',
+        desc: 'Bagikan kebahagiaan dengan mudah melalui fitur berbagi yang memungkinkan undangan pernikahan anda di jangkau oleh semua tamu.'
+    },
+    {
+        icon: phone,
+        title: 'Desain Responsive',
+        desc: 'Pastikan undangan anda dapat diakses dengan sempurna dari berbagai perangkat, dengan desain responsif yang memastikan kenyamanan pengguna.'
+    },
+    {
+        icon: clock,
+        title: 'Zona Waktu ',
+        desc: ' Atur zona waktu acara dengan tepat, memastikan bahwa semua tamu anda hadir pada waktu yang ditentukan untuk momen-momen spesial.'
     },
 ]
