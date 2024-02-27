@@ -1,7 +1,6 @@
 import Card from '@/app/components/fragments/card'
 import './fitur.scss'
 import Image from 'next/image'
-import { homeFitur } from '@/app/image'
 import { fiturList } from '@/app/utils/dataObject'
 
 const Fitur = () => {
