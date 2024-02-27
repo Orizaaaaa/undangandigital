@@ -11,7 +11,13 @@ import kuas from './assets/kuas.svg'
 import galery from './assets/galery.svg'
 import dataFild from './assets/dataFild.svg'
 import clock from './assets/clock.svg'
+import BCA from './assets/BCA.png'
+import BRI from './assets/BRI.png'
+import GoPay from './assets/GoPay.png'
+import dana from './assets/dana.png'
+import bni from './assets/bni.svg'
+
 
 export {
-    logoBrand, homeIcon, heroInstruction, example, homeFitur, share, phone, music, money, kuas, galery, dataFild, clock
+    logoBrand, homeIcon, heroInstruction, example, homeFitur, share, phone, music, money, kuas, galery, dataFild, clock, BCA, BRI, GoPay, dana, bni
 }
