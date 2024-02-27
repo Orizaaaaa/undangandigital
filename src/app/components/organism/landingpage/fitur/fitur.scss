@@ -1,0 +1,19 @@
+.fitur {
+    h1 {
+        color: var(--primary);
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .fitur {
+        .grid {
+            .card {
+                .flex img {
+                    height: 40px;
+                    width: 40px;
+                }
+            }
+        }
+    }
+}
