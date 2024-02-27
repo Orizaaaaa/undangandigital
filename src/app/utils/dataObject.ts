@@ -141,9 +141,34 @@ export const priceList = [
         type: 'Free',
         price: '0.k',
         fitur: [
-            { title: 'Desain Basic' },
-            { title: 'Desain Basic' },
-            { title: 'Desain Basic' },
+            { title: 'Desain basic' },
+            { title: 'Lokasi  pernikahan ' },
+            { title: 'Revisi terbatas' },
+            { title: 'Share undangan' },
+            { title: 'Galery foto' },
+        ],
+    },
+    {
+        type: 'Premium',
+        price: '65.k',
+        fitur: [
+            { title: 'Mendapat 2 desain premium' },
+            { title: 'Fitur musik ' },
+            { title: 'Revisi tak terbatas' },
+            { title: 'Amplop digital' },
+            { title: 'Zona waktu ' },
+            { title: 'Galery foto  ' },
+            { title: 'Lokasi pernikahan  ' },
+        ],
+    },
+    {
+        type: 'Luxury',
+        price: '125.k',
+        fitur: [
+            { title: 'Semua yang ada di fitur premium' },
+            { title: 'Scan QR kode tamu  ' },
+            { title: 'Memilih 2 dari semua jenis desain' },
+            { title: 'Prioritas chat admin ' }
         ],
     },
 ]
