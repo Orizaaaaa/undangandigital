@@ -1,4 +1,4 @@
-import './testimonies.scss"'
+import './testimoni.scss'
 
 const Testimonies = () => {
     return (
