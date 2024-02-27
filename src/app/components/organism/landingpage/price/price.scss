@@ -1,4 +1,14 @@
 .price {
+    .p-3 {
+        h1 {
+            color: var(--primary);
+        }
+
+        .subtitle {
+            color: var(--primary);
+        }
+    }
+
     .grid {
         .card {
             h1 {

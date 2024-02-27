@@ -9,7 +9,7 @@ const Price = () => {
         <section className="price mt-[6rem] mb-4" id="price">
             <div className="p-3">
                 <h1 className='text-xl  lg:text-3xl font-bold' >Harga terbaik untuk anda</h1>
-                <p>kamu adalah segalanya, untuk kamu harga terbaik dengan jaminan website yang berkualitas</p>
+                <p className='subtitle' >kamu adalah segalanya, untuk kamu harga terbaik dengan jaminan website yang berkualitas</p>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mt-8 p-3 lg:p-0">
