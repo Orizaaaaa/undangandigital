@@ -135,3 +135,15 @@ export const fiturList = [
         desc: ' Atur zona waktu acara dengan tepat, memastikan bahwa semua tamu anda hadir pada waktu yang ditentukan untuk momen-momen spesial.'
     },
 ]
+
+export const priceList = [
+    {
+        type: 'Free',
+        price: '0.k',
+        fitur: [
+            { title: 'Desain Basic' },
+            { title: 'Desain Basic' },
+            { title: 'Desain Basic' },
+        ],
+    },
+]
