@@ -5,6 +5,7 @@ import Theme from "@/app/components/organism/landingpage/theme"
 import Fitur from "@/app/components/organism/landingpage/fitur"
 import Price from "@/app/components/organism/landingpage/price"
 import PaymentMethod from "@/app/components/organism/landingpage/paymentMethod"
+import Testimonies from "@/app/components/organism/landingpage/testimonies"
 
 const LandingPageView = () => {
     return (
@@ -16,6 +17,7 @@ const LandingPageView = () => {
             <Fitur />
             <Price />
             <PaymentMethod />
+            <Testimonies />
         </>
     )
 }
