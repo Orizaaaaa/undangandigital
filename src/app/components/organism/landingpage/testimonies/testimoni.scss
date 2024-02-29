@@ -8,4 +8,18 @@
             color: var(--primary);
         }
     }
+
+}
+
+@media screen and (max-width: 1264px) {
+    .testimonies {
+        .caraosel {
+            .flex {
+                img {
+                    width: 140px;
+                }
+            }
+        }
+    }
+
 }

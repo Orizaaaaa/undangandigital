@@ -14,7 +14,7 @@ const Testimonies = () => {
                 <h1 className="text-xl  lg:text-3xl font-bold" >Apa Kata Mereka ?</h1>
                 <p>Ini adalah yang mereka katakan tentang kami dan undangan digital</p>
             </div>
-            <div className="caraosel mt-8">
+            <div className="caraosel mt-8 p-3">
 
 
 
@@ -25,6 +25,18 @@ const Testimonies = () => {
                     autoplay={{
                         delay: 2500,
                         disableOnInteraction: false,
+                    }}
+                    breakpoints={{
+                        0: {
+                            slidesPerView: 1,
+                        },
+                        640: {
+                            slidesPerView: 2,
+
+                        },
+                        1020: {
+                            slidesPerView: 3,
+                        },
                     }}
                     className="mySwiper"
                 >
