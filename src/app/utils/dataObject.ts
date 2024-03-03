@@ -1,5 +1,5 @@
 import { FaRegListAlt } from "react-icons/fa";
-import { example, homeFitur, share, phone, music, money, kuas, galery, dataFild, clock, bni, dana, GoPay, BCA, BRI } from "../image";
+import { example, homeFitur, share, phone, music, money, kuas, galery, dataFild, clock, bni, dana, GoPay, BCA, BRI, customer } from "../image";
 
 export const navigation = [
     {
@@ -174,3 +174,26 @@ export const priceList = [
 ]
 
 export const paymentList = [bni, BCA, BRI, dana, GoPay]
+
+export const testimoniList = [
+    {
+        image: customer,
+        desc: 'Pasti Dateng adalah platform custom website undangan pernikahan  digital yang luar biasa. Dengan desain responsif'
+    },
+    {
+        image: customer,
+        desc: 'Pasti Dateng adalah platform custom website undangan pernikahan  digital yang luar biasa. Dengan desain responsif'
+    },
+    {
+        image: customer,
+        desc: 'Pasti Dateng adalah platform custom website undangan pernikahan  digital yang luar biasa. Dengan desain responsif'
+    },
+    {
+        image: customer,
+        desc: 'Pasti Dateng adalah platform custom website undangan pernikahan  digital yang luar biasa. Dengan desain responsif'
+    },
+    {
+        image: customer,
+        desc: 'Pasti Dateng adalah platform custom website undangan pernikahan  digital yang luar biasa. Dengan desain responsif'
+    },
+]

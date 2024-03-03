@@ -6,6 +6,7 @@ import { customer } from '@/app/image'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import { testimoniList } from '@/app/utils/dataObject'
 
 const Testimonies = () => {
     return (
@@ -40,39 +41,14 @@ const Testimonies = () => {
                     }}
                     className="mySwiper"
                 >
-                    <SwiperSlide>
-                        <Card className='flex items-center  gap-3' >
-                            <Image className='rounded-l-lg' src={customer} alt="example" />
-                            <p>Pasti Dateng adalah
-                                platform custom website undangan pernikahan
-                                digital yang luar biasa. Dengan desain responsif</p>
-                        </Card>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <Card className='flex items-center  gap-3' >
-                            <Image className='rounded-l-lg' src={customer} alt="example" />
-                            <p>Pasti Dateng adalah
-                                platform custom website undangan pernikahan
-                                digital yang luar biasa. Dengan desain responsif</p>
-                        </Card>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <Card className='flex items-center  gap-3' >
-                            <Image className='rounded-l-lg' src={customer} alt="example" />
-                            <p>Pasti Dateng adalah
-                                platform custom website undangan pernikahan
-                                digital yang luar biasa. Dengan desain responsif</p>
-                        </Card>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <Card className='flex items-center  gap-3' >
-                            <Image className='rounded-l-lg' src={customer} alt="example" />
-                            <p>Pasti Dateng adalah
-                                platform custom website undangan pernikahan
-                                digital yang luar biasa. Dengan desain responsif</p>
-                        </Card>
-                    </SwiperSlide>
-
+                    {testimoniList.map((item, index) => (
+                        <SwiperSlide key={index}>
+                            <Card className='flex items-center  gap-3' >
+                                <Image className='rounded-l-lg' src={item.image} alt="example" />
+                                <p>{item.desc}</p>
+                            </Card>
+                        </SwiperSlide>
+                    ))}
                 </Swiper>
 
             </div>
