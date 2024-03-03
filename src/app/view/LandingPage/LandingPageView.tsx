@@ -6,6 +6,7 @@ import Fitur from "@/app/components/organism/landingpage/fitur"
 import Price from "@/app/components/organism/landingpage/price"
 import PaymentMethod from "@/app/components/organism/landingpage/paymentMethod"
 import Testimonies from "@/app/components/organism/landingpage/testimonies"
+import Accordion from "@/app/components/organism/landingpage/faq"
 
 const LandingPageView = () => {
     return (
@@ -18,6 +19,7 @@ const LandingPageView = () => {
             <Price />
             <PaymentMethod />
             <Testimonies />
+            <Accordion />
         </>
     )
 }
