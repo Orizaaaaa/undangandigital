@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from "react";
 
-const Accordion = () => {
+const Faq = () => {
     return (
         <section className="relative z-20 overflow-hidden bg-white pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px] p-2 sm:p-5">
             <div className="container mx-auto">
@@ -58,7 +58,7 @@ const Accordion = () => {
     );
 };
 
-export default Accordion;
+export default Faq;
 
 const AccordionItem = ({ header, text }: { header: string, text: string }) => {
     const [active, setActive] = useState(false);
