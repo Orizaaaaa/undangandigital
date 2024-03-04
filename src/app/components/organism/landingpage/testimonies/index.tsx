@@ -10,7 +10,7 @@ import { testimoniList } from '@/app/utils/dataObject'
 
 const Testimonies = () => {
     return (
-        <section className="testimonies mt-[6rem] mb-4" id="testimonies">
+        <section className="testimonies container mx-auto  mt-[6rem] mb-4" id="testimonies">
             <div className="text-center">
                 <h1 className="text-xl  lg:text-3xl font-bold" >Apa Kata Mereka ?</h1>
                 <p>Ini adalah yang mereka katakan tentang kami dan undangan digital</p>

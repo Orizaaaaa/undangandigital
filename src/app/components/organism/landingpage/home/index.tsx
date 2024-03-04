@@ -11,7 +11,7 @@ import ButtonSecondary from '@/app/components/elements/buttonSecondary/Button';
 const Home = () => {
 
     return (
-        <section className="home py-[6rem]" id="home">
+        <section className="home py-[6rem] container mx-auto " id="home">
             <motion.div className="intro grid grid-cols-1 lg:grid-cols-2 items-center justify-center"
                 variants={staggerContainer()}
                 whileInView="show"

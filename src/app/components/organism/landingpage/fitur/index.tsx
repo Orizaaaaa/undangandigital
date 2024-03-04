@@ -5,7 +5,7 @@ import { fiturList } from '@/app/utils/dataObject'
 
 const Fitur = () => {
     return (
-        <section className="fitur mt-[6rem] p-3 mb-4" id='fitur'>
+        <section className="fitur mt-[6rem] container mx-auto  p-3 mb-4" id='fitur'>
             <h1 className=' text-xl  lg:text-3xl font-bold'>Fitur Terbaik Yang Kami Sediakan</h1>
             <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-3 mt-8">
                 {fiturList.map((item, index) => (

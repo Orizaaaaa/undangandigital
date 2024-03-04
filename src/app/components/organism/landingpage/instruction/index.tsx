@@ -35,7 +35,7 @@ const data = [
 const Instruction = () => {
 
     return (
-        <section className="instruction mb-10" id="instruction">
+        <section className="instruction mb-10 container mx-auto " id="instruction">
             <div className="p-2">
                 <h1 className=" text-2xl lg:text-3xl font-bold" >Langkah Untuk Membuat Undangan</h1>
                 <p className="text-sm lg:text-base" >Cukup lakukan 4 langkah untuk buat website undangan digital sendiri. Untuk lebih jelasnya silakan ikuti petunjuk di bawah ini atau lihat video tutorial</p>
