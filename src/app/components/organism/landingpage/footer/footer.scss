@@ -1,3 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+
 .footer {
-    background-color: var(--primary);
+    background-color: #EAD9C9;
+
+    .container {
+        .grid {
+            .left {
+                h1 {
+                    font-family: var(--cormorant);
+                    font-size: 30px;
+                    font-weight: 600;
+                }
+
+                h2 {
+                    font-family: var(--cormorant);
+                }
+            }
+
+            .right {
+                h1 {
+                    font-family: var(--cormorant);
+                }
+
+                .flex {
+                    a {
+                        font-family: var(--cormorant);
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+    .footer {
+        .container {
+            .grid {
+                .left {
+                    h1 {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
 }
