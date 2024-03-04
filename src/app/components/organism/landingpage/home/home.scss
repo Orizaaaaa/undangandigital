@@ -5,6 +5,7 @@
 .home {
     .intro {
         min-height: 82vh;
+        overflow-x: hidden !important;
 
         .title {
             h1 {
