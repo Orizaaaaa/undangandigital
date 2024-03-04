@@ -1,6 +1,7 @@
 import React from 'react'
 import './footer.scss'
 import Link from 'next/link'
+import { navigation } from '@/app/utils/dataObject'
 
 
 const Footer = () => {
@@ -15,10 +16,9 @@ const Footer = () => {
                     <div className="right mx-0 mt-3 lg:mt-0 lg:mx-auto p-3 sm:p-0">
                         <h1 className='text-xl font-semibold'>SITEMAP</h1>
                         <div className="flex gap-5">
-                            <Link className='text-lg ' href={'#home'} > Home</Link>
-                            <Link className='text-lg ' href={'#home'} > Home</Link>
-                            <Link className='text-lg ' href={'#home'} > Home</Link>
-                            <Link className='text-lg ' href={'#home'} > Home</Link>
+                            {navigation.map((item, index) => (
+                                <Link key={index} className='text-lg ' href={`#${item.location}`} >{item.title}</Link>
+                            ))}
                         </div>
                     </div>
                 </div>
