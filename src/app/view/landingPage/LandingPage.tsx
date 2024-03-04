@@ -12,7 +12,7 @@ import Footer from "@/app/components/organism/landingpage/footer"
 const LandingPageView = () => {
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
             <Home />
             <Instruction />
             <Theme />
