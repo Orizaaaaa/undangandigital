@@ -21,7 +21,7 @@ const LandingPageView = () => {
             <PaymentMethod />
             <Testimonies />
             <Faq />
-            {/* <Footer /> */}
+            <Footer />
         </>
     )
 }
