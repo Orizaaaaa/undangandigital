@@ -1,24 +1,18 @@
 'use client'
 import { faqList } from "@/app/utils/dataObject";
 import React, { useState } from "react";
+import './faq.scss'
 
 const Faq = () => {
     return (
-        <section className="relative overflow-hidden bg-white pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px] p-2 md:p-10">
+        <section className="faq mt-[6rem] relative overflow-hidden bg-white p-2 sm:p-4" id="faq">
             <div className="container mx-auto">
                 <div className="-mx-4 flex flex-wrap">
                     <div className="w-full px-4">
-                        <div className="mx-auto mb-[60px] max-w-[520px] text-center lg:mb-20">
-                            <span className="mb-2 block text-2xl lg:text-3xl font-bold font-semibold text-primary">
+                        <div className="mb-2 ">
+                            <h1 className=" block text-2xl lg:text-3xl font-bold font-semibold text-primary">
                                 FAQ
-                            </span>
-                            <h2 className="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]">
-                                Any Questions? Look Here
-                            </h2>
-                            <p className="text-base text-body-color dark:text-dark-6">
-                                There are many variations of passages of Lorem Ipsum available
-                                but the majority have suffered alteration in some form.
-                            </p>
+                            </h1>
                         </div>
                     </div>
                 </div>
@@ -50,7 +44,7 @@ const AccordionItem = ({ header, text }: { header: string, text: string }) => {
         setActive(!active);
     };
     return (
-        <div className="mb-4 md:mb-8 w-full rounded-lg bg-white p-3 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] dark:bg-dark-2 dark:shadow-[0px_20px_95px_0px_rgba(0,0,0,0.30)] sm:p-4 lg:px-4 xl:px-4">
+        <div className="card-faq mb-4 md:mb-8 w-full rounded-lg bg-white p-3 sm:p-4 lg:px-4 xl:px-5">
             <button
                 className={`faq-btn flex items-center justify-between w-full text-left`}
                 onClick={(e) => handleToggle(e)}
