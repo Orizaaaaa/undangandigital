@@ -1,7 +1,10 @@
 import LandingPageView from "./view/landingPage/LandingPageView";
 
-export default function Home() {
+
+const Home = () => {
   return (
     <LandingPageView />
-  );
+  )
 }
+
+export default Home
