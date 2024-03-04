@@ -1,4 +1,4 @@
-import LandingPageView from "../app/view/landingPage/LandingPageView";
+import LandingPageView from "./view/landingPage/LandingPage";
 
 
 const Home = () => {
