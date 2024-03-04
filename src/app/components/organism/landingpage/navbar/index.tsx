@@ -112,8 +112,7 @@ const Navbar = () => {
                     <ul className="flex  flex-col mt-4  p-3 lg:p-0 text-black font-medium lg:flex-row lg:space-x-8 lg:mt-0 w-full rounded-lg gap-1 lg:gap-0">
                         {navigation.map((item, index) => (
                             <li key={index}>
-                                <Link className={`link  no-underline ${activeSection === item.location || pathname === item.location ? 'active ' : ''}`}
-
+                                <Link className={`link  no-underline font-semibold ${activeSection === item.location || pathname === item.location ? 'active ' : ''}`}
                                     href={item.location !== '/portfolio' ? `/#${item.location}` : item.location}>
                                     {item.title}
                                 </Link>

@@ -8,7 +8,7 @@
 
         .title {
             h1 {
-                font-family: var(--courier);
+                font-family: var(--courier) !important;
                 font-size: 60px;
                 color: var(--primary);
             }
