@@ -7,20 +7,28 @@ export const navigation = [
         location: 'home'
     },
     {
-        title: 'Langkah Pembuatan',
-        location: 'aboutMe'
+        title: 'Pembuatan',
+        location: 'pembuatan'
     },
     {
-        title: 'Skills',
-        location: 'my-skill'
+        title: 'Tema',
+        location: 'theme'
     },
     {
-        title: 'Education',
-        location: 'educations'
+        title: 'Fitur',
+        location: 'fitur'
     },
     {
-        title: 'Experience',
-        location: 'experiences'
+        title: 'Harga',
+        location: 'price'
+    },
+    {
+        title: 'Testimoni',
+        location: 'testimonies'
+    },
+    {
+        title: 'FAQ',
+        location: 'faq'
     },
 
 ]
