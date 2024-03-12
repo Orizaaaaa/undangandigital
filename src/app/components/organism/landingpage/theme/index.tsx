@@ -34,7 +34,7 @@ const Theme = () => {
                             <div className='flex justify-end mt-3'>
                                 <div className={`${filtering(item.type)} font-medium rounded-l-lg px-8 py-1`}>{item.type}</div>
                             </div>
-                            <h1 className='font-semibold px-3 text-xl font-semibold'>{item.title}</h1>
+                            <h1 className='px-3 text-xl font-semibold'>{item.title}</h1>
                             <div className="flex">
                                 <div className="star flex items-center px-3 mb-5">
                                     {Array.from({ length: item.star }).map((_, index) => (
