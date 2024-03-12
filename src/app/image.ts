@@ -17,9 +17,10 @@ import GoPay from './assets/GoPay.svg'
 import dana from './assets/dana.svg'
 import bni from './assets/bni.svg'
 import customer from './assets/customer.svg'
+import userBali1 from './assets/userBali1.svg'
 
 
 export {
     logoBrand, homeIcon, heroInstruction, example, homeFitur, share, phone, music, money, kuas, galery, dataFild, clock, BCA, BRI, GoPay, dana,
-    bni, customer
+    bni, customer, userBali1
 }

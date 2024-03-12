@@ -1,0 +1,21 @@
+.layout {
+    .hero-1 {
+        min-height: 100vh;
+        max-height: 100vh;
+        min-width: 70vw;
+        position: sticky;
+        bottom: 0;
+        top: 0;
+
+        img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover;
+        }
+    }
+
+    .hero-2 {
+        min-height: 150vh;
+        width: auto;
+    }
+}
