@@ -19,3 +19,12 @@
         width: auto;
     }
 }
+
+@media screen and (max-width: 1222px) {
+    .layout {
+        .hero-1 {
+            min-width: 60vw;
+        }
+    }
+
+}
