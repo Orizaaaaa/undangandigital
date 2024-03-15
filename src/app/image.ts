@@ -19,9 +19,10 @@ import bni from './assets/bni.svg'
 import customer from './assets/customer.svg'
 import userBali1 from './assets/userBali1.svg'
 import introIntivitation from './assets/introIntivitation.svg'
+import bgbali from './assets/bgbali.svg'
 
 
 export {
     logoBrand, homeIcon, heroInstruction, example, homeFitur, share, phone, music, money, kuas, galery, dataFild, clock, BCA, BRI, GoPay, dana,
-    bni, customer, userBali1, introIntivitation
+    bni, customer, userBali1, introIntivitation, bgbali
 }

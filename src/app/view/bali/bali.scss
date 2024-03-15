@@ -4,5 +4,10 @@
     .hero-1-bali {
         width: 100%;
         min-height: 100vh;
+        background-image: url('../../assets/bgbali.svg');
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
     }
 }
