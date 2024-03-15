@@ -83,7 +83,9 @@ const LayoutTheme = ({ children, image, navigation }: LayoutThemeProps) => {
                 <Image src={image} alt='userBali' />
             </div>
             <div className="hero-2 relative">
+
                 {children}
+
                 <div className="w-full flex justify-center lg:hidden">
                     <div className="flex flex-row fixed bottom-0 mb-2 text-3xl font-bold bg-cream rounded-full p-4 gap-3 items-center justify-center ">
                         {dataNav.map((item, index) => (
