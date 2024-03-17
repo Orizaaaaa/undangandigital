@@ -20,7 +20,7 @@ type LayoutThemeProps = {
 const LayoutTheme = ({ children, image, navigation }: LayoutThemeProps) => {
     const dataNav = [
         {
-            location: '#bali',
+            location: '#hero-2-bali',
             icon: <FaHeart color='#523E27' size={23} />
         },
         {
