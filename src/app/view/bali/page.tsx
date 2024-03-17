@@ -5,7 +5,6 @@ import './bali.scss'
 import Image from "next/image"
 import { SlMouse } from "react-icons/sl";
 import { forumFont, playballFont } from "@/app/utils/font";
-import { Inter } from "next/font/google";
 
 const BaliTheme = () => {
 
