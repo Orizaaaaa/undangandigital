@@ -22,9 +22,10 @@ import introIntivitation from './assets/introIntivitation.svg'
 import bgbali from './assets/bgbali.svg'
 import flower from './assets/flower.png'
 import bgBasicBali from './assets/bgBasicBali.jpg'
+import bird from './assets/bird.png'
 
 
 export {
     logoBrand, homeIcon, heroInstruction, example, homeFitur, share, phone, music, money, kuas, galery, dataFild, clock, BCA, BRI, GoPay, dana,
-    bni, customer, userBali1, introIntivitation, bgbali, flower, bgBasicBali
+    bni, customer, userBali1, introIntivitation, bgbali, flower, bgBasicBali, bird
 }
