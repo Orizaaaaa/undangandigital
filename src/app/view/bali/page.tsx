@@ -11,7 +11,9 @@ const BaliTheme = () => {
 
     return (
         <LayoutTheme image={userBali1} >
-            <Intro />
+            <section className="bali-theme ">
+                <Intro />
+            </section>
         </LayoutTheme >
     )
 }

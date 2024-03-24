@@ -7,7 +7,7 @@ import { forumFont, playballFont } from "@/app/utils/font";
 
 const Intro = () => {
     return (
-        <section className="bali-theme ">
+        <>
             <div className="hero-1-bali flex flex-col items-center justify-center">
                 <h1 className="mb-7 text-2xl" style={{ fontFamily: forumFont.style.fontFamily }}>THE WEDDING OF</h1>
                 <Image className="w-60 h-60" src={introIntivitation} alt='userBali' />
@@ -48,7 +48,7 @@ const Intro = () => {
 
             </div>
 
-        </section>
+        </>
 
     )
 }
