@@ -4,8 +4,7 @@ import './bali.scss'
 import Intro from "@/app/components/organism/baliTheme/intro";
 import DetailInfo from "@/app/components/organism/baliTheme/detail";
 import LoveStory from "@/app/components/organism/baliTheme/loveStory";
-import Moment from "@/app/components/organism/baliTheme/moment";
-import MomentAndPray from "@/app/components/organism/baliTheme/moment";
+import MomentAndPray from "@/app/components/organism/baliTheme/momentAndPray";
 
 
 const BaliTheme = () => {
