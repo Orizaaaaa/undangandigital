@@ -1,1 +1,16 @@
-.hero-3-bali {}
+.hero-3-bali {
+    background-color: #523e27;
+    background-image: url('../../../../assets/mitos__37_1.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+
+    .image-section {
+        background-image: url('../../../../assets/bgDecor.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+    }
+}
