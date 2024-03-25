@@ -14,12 +14,12 @@ const Moment = () => {
                     <p>"Menciptakan kenangan adalah hadiah yang tak ternilai harganya. Kenangan akan bertahan seumur hidup; benda-benda hanya dalam waktu singkat." </p>
                 </div>
                 {/* vidio */}
-                <iframe
+                {/* <iframe
                     className="w-full h-72"
                     src="https://www.youtube.com/embed/FF3fuYLnApQ"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 >
-                </iframe>
+                </iframe> */}
 
                 {/* caraosel */}
 
@@ -27,7 +27,7 @@ const Moment = () => {
             </div>
 
             {/* date */}
-            <div className="date-and-time">
+            {/* <div className="date-and-time">
                 <Card>
                     <div className="p-3">
                         <h1 className='text-xl text-center m-4 text-white' style={{ fontFamily: playballFont.style.fontFamily }} >Date 20 November 2022</h1>
@@ -45,7 +45,7 @@ const Moment = () => {
 
                     </div>
                 </Card>
-            </div>
+            </div> */}
 
             {/* map */}
 
