@@ -5,6 +5,7 @@ import Image from "next/image"
 import { SlMouse } from "react-icons/sl";
 import { forumFont, playballFont } from "@/app/utils/font";
 import Intro from "@/app/components/organism/baliTheme/intro";
+import DetailInfo from "@/app/components/organism/baliTheme/detail";
 
 
 const BaliTheme = () => {
@@ -13,6 +14,7 @@ const BaliTheme = () => {
         <LayoutTheme image={userBali1} >
             <section className="bali-theme ">
                 <Intro />
+                <DetailInfo />
             </section>
         </LayoutTheme >
     )

@@ -23,9 +23,10 @@ import bgbali from './assets/bgbali.svg'
 import flower from './assets/flower.png'
 import bgBasicBali from './assets/bgBasicBali.jpg'
 import bird from './assets/bird.png'
+import bgDecor from './assets/bgDecor.png'
 
 
 export {
     logoBrand, homeIcon, heroInstruction, example, homeFitur, share, phone, music, money, kuas, galery, dataFild, clock, BCA, BRI, GoPay, dana,
-    bni, customer, userBali1, introIntivitation, bgbali, flower, bgBasicBali, bird
+    bni, customer, userBali1, introIntivitation, bgbali, flower, bgBasicBali, bird, bgDecor
 }
