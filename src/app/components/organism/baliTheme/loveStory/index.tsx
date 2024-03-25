@@ -5,7 +5,7 @@ import { lovestoryImg } from '@/app/image'
 const LoveStory = () => {
     return (
         <section className="hero-4-bali flex flex-col items-center justify-center px-4 py-10 ">
-            <div className="px-9">
+            <div className="px-7">
                 <div className="card-wrapper px-3 rounded-xl ">
                     <h1 className='text-center py-5 text-2xl text-white' style={{ fontFamily: playballFont.style.fontFamily }}>Our Love Story </h1>
                     <div className="cardlist grid grid-rows-1 gap-10 py-5">
