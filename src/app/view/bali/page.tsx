@@ -5,6 +5,7 @@ import Intro from "@/app/components/organism/baliTheme/intro";
 import DetailInfo from "@/app/components/organism/baliTheme/detail";
 import LoveStory from "@/app/components/organism/baliTheme/loveStory";
 import MomentAndPray from "@/app/components/organism/baliTheme/momentAndPray";
+import Messages from "@/app/components/organism/baliTheme/messages";
 
 
 const BaliTheme = () => {
@@ -16,6 +17,7 @@ const BaliTheme = () => {
                 <DetailInfo />
                 <LoveStory />
                 <MomentAndPray />
+                <Messages />
             </section>
         </LayoutTheme >
     )
