@@ -39,8 +39,10 @@ const MomentAndPray = () => {
                             <IoLocationOutline color='white' />
                             <p className='text-white' style={{ fontFamily: forumFont.style.fontFamily }} > Plataran Menteng,  RT.6/RW.4, Gondangdia, Kota Jakarta Pusat </p>
                         </div>
-                        <div className="flex justify-center items-center mt-4">
-                            <ButtonPrimary className='rounded-[200px] py-2 px-5 text-base  transition duration-300 '>  Lihat Lokasi </ButtonPrimary>
+                        <div className="flex justify-center items-center mt-8">
+                            <button style={{ fontFamily: forumFont.style.fontFamily }} className='rounded-full px-4 py-2 border-2 border-[#EAD9C9] text-[#EAD9C9]' >
+                                Lihat Lokasi
+                            </button>
                         </div>
 
                     </div>
